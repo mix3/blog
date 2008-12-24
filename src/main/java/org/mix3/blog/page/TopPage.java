@@ -7,7 +7,7 @@ import org.mix3.blog.frame.Frame;
 
 public class TopPage extends Frame{
 	public TopPage() throws Exception{
-		if(true){
+		if(false){
 			throw new RuntimeErrorException(new Error("error"), "error_message");
 		}
 		add(new Label("message", "toppage"));

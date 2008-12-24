@@ -17,20 +17,29 @@ import net.java.ao.db.C3P0PoolProvider;
 import org.apache.wicket.Request;
 import org.apache.wicket.RequestCycle;
 import org.apache.wicket.Response;
+import org.apache.wicket.Session;
 import org.apache.wicket.guice.GuiceComponentInjector;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.protocol.http.WebRequest;
 import org.apache.wicket.protocol.http.WebResponse;
 import org.apache.wicket.settings.IExceptionSettings;
+import org.mix3.blog.auth.MySession;
 import org.mix3.blog.entity.Setting;
 import org.mix3.blog.error.ErrorPage;
 import org.mix3.blog.error.ErrorRequestCycle;
+import org.mix3.blog.page.SignInPage;
 import org.mix3.blog.page.TopPage;
 import org.mix3.blog.util.H2DatabaseProvider;
 import org.mix3.blog.util.Utils;
 
 public class WicketApplication extends WebApplication{
+	@Override
+	public Session newSession(Request request,
+			org.apache.wicket.Response response) {
+		return new MySession(request);
+	}
+	
 	@Override
 	public RequestCycle newRequestCycle(Request request, Response response) {
 		return new ErrorRequestCycle(this, (WebRequest)request, (WebResponse)response);
@@ -106,6 +115,8 @@ public class WicketApplication extends WebApplication{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
+		mountBookmarkablePage("/signin", SignInPage.class);
 		
 		addComponentInstantiationListener(new GuiceComponentInjector(this));
 		getRequestCycleSettings().setResponseRequestEncoding("UTF-8");

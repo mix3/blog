@@ -1,4 +1,19 @@
+<wicket:head>
+	<title wicket:id="header_title" />
+</wicket:head>
 <wicket:extend>
+	<!-- Header start -->
+	<div id="header">
+		<h1 id="logo-text"><a href="#" wicket:id="title">ヘッダータイトル</a></h1>
+		<p id="slogan" wicket:id="description">サイトの概要またはサブタイトル</p>
+	</div>
+	
+	<div id="top-menu">
+		<p><a href="#">rss feed</a></p>
+	</div>
+	<!-- Header end -->
+
+	<div wicket:id="feedback" />
 	<!-- navigation start -->
 	<div id="nav">
 		<div>メニュースペース</div>
