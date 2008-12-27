@@ -1,15 +1,29 @@
 package org.mix3.blog.page;
 
-import javax.management.RuntimeErrorException;
+import java.sql.SQLException;
+import java.util.List;
 
-import org.apache.wicket.markup.html.basic.Label;
-import org.mix3.blog.frame.Frame;
+import org.apache.wicket.PageParameters;
+import org.mix3.blog.model.ArticleModel;
 
-public class TopPage extends Frame{
-	public TopPage() throws Exception{
-		if(false){
-			throw new RuntimeErrorException(new Error("error"), "error_message");
-		}
-		add(new Label("message", "toppage"));
+public class TopPage extends AbstractArticlePage{
+	public TopPage(PageParameters parameters) {
+		super(parameters);
+	}
+
+	@Override
+	protected List<ArticleModel> getArticleList(PageParameters parameters)
+			throws SQLException {
+		return service.getArticleList(service.getSetting().getListnum(), 0);
+	}
+
+	@Override
+	protected int getSize(PageParameters parameters) throws SQLException {
+		return 0;
+	}
+
+	@Override
+	protected boolean isMyVisible() {
+		return false;
 	}
 }

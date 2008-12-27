@@ -18,7 +18,10 @@
 
 	<filter>
 		<filter-name>wicket.blog8</filter-name>
+		<filter-class>org.mix3.blog.MyReloadingWicketFilter</filter-class>
+		<!--
  		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
+ 		-->
 		<init-param>
 			<param-name>applicationClassName</param-name>
 			<param-value>org.mix3.blog.WicketApplication</param-value>

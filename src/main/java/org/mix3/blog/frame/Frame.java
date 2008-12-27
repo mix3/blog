@@ -12,8 +12,11 @@ import org.apache.wicket.markup.html.link.BookmarkablePageLink;
 import org.apache.wicket.markup.html.panel.FeedbackPanel;
 import org.apache.wicket.model.Model;
 import org.mix3.blog.WicketApplication;
+import org.mix3.blog.auth.MySession;
+import org.mix3.blog.auth.panel.AuthMenuPanel;
 import org.mix3.blog.model.SettingModel;
 import org.mix3.blog.page.TopPage;
+import org.mix3.blog.page.panel.MenuPanel;
 import org.mix3.blog.page.sidepanel.SidePanel;
 import org.mix3.blog.service.Service;
 
@@ -50,6 +53,12 @@ public class Frame extends AbstractFrame{
 		add(new Label("description", new Model(settingModel.getDescription())));
 		
 		add(new FeedbackPanel("feedback"));
+		
+		if(((MySession)getSession()).isSignedIn()){
+			add(new AuthMenuPanel("nav"));
+		}else{
+			add(new MenuPanel("nav"));
+		}
 		
 //		add(new Label("sidebar", "sidebar"));
 		try {
