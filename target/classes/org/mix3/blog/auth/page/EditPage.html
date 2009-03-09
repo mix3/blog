@@ -1,0 +1,26 @@
+<wicket:extend>
+	<form wicket:id="form">
+		<div wicket:id="checkgroup">
+			<table>
+				<tr><th><input type="checkbox" wicket:id="checkall" /></th>
+				<th width="70%">Title & Category</th><th>Date</th><th>Delete</th></tr>
+				<tr wicket:id="list">
+					<td><input type="checkbox" wicket:id="check" /></td>
+					<td>
+						<a href="#" wicket:id="title">記事タイトル</a><br />
+						<input wicket:id="category" style="width: 200px;" name="category" type="text" />
+					</td>
+					<td wicket:id="date">投稿日時</td>
+					<td>
+						<input type="submit" value="Delete" name="delete" onclick="return confirm('be delete. ok?');"　wicket:id="delete" />
+					</td>
+				</tr>
+				<tr><td wicket:id="navi" colspan="4" align="center">ナビ</td></tr>
+				<tr><td colspan="4" align="center">
+					<input type="submit" value="Edit ALL" name="editall" wicket:id="editall" />
+					<input type="submit" value="Delete ALL" name="deleteall" onclick="return confirm('be delete. ok?');" wicket:id="deleteall" />
+				</td></tr>
+			</table>
+		</div>
+	</form>
+</wicket:extend>

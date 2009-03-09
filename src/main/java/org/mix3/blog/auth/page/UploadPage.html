@@ -1,0 +1,39 @@
+<wicket:extend>
+	<div class="contents_body">
+		<form wicket:id="uploadform">
+			<div wicket:id="feedback"></div>
+			<div wicket:id="fileInput" />
+			<input wicket:id="submit" type="submit" value="アップロード"/>
+		</form>
+		<form wicket:id="listform">
+			<div wicket:id="checkgroup">
+				<div class="edit">
+					<table width="90%">
+						<tr><th><input type="checkbox" wicket:id="checkall" /></th>
+						<th width="70%">タイトル</th><th>削除</th></tr>
+						<tr wicket:id="list">
+							<td><input type="checkbox" wicket:id="check" /></td>
+							<td>
+								<a href="#" wicket:id="img">
+									<img src="#" wicket:id="img" />
+									<div wicket:id="title">name</div>
+								</a>
+								<div wicket:id="date">date</div>
+								<input wicket:id="category" style="width: 200px;" name="category" type="text" />
+							</td>
+							<td>
+								<a href="#" wicket:id="popup">C&P</a>
+								<input type="submit" value="Delete" onclick="return confirm('be delete. ok?');" name="delete" wicket:id="delete" />
+							</td>
+						</tr>
+						<tr><td wicket:id="navi" colspan="4" align="center">ナビ</td></tr>
+						<tr><td colspan="4" align="center">
+							<input type="submit" value="Edit ALL" name="editall" wicket:id="editall" />
+							<input type="submit" value="Delete ALL" name="deleteall" onclick="return confirm('be delete. ok?');" wicket:id="deleteall" />
+						</td></tr>
+					</table>
+				</div>
+			</div>
+		</form>
+	</div>
+</wicket:extend>

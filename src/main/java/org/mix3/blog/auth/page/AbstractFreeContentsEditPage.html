@@ -1,0 +1,43 @@
+<wicket:extend>
+	<H3>FreeContents Edit</H3>
+	<form wicket:id="freeContentsEditForm">
+		<table>
+			<tr><th>Priority</th><th width="70%">Title</th><th>Delete</th></tr>
+			<tr wicket:id="list">
+				<td>
+					<input wicket:id="priority" style="width: 10px;" type="text" />
+				</td>
+				<td>
+					<a href="#" wicket:id="title">Title</a>
+				</td>
+				<td>
+					<input type="submit" value="Delete" name="delete" onclick="return confirm('be delete. ok?');" wicket:id="delete" />
+				</td>
+			</tr>
+			<tr><td colspan="4" align="center">
+				<input type="submit" value="Update" name="update" wicket:id="update" />
+			</td></tr>
+		</table>
+	</form>
+	
+	<H3>FreeContents Create</H3>
+	<form wicket:id="freeContentsCreateForm">
+		<p>
+			<label for="subject">priority</label><br />
+			<input wicket:id="priority" id="name" name="name" type="text" />
+		</p>
+		<p>
+			<label for="subject">title</label><br />
+			<input wicket:id="title" id="name" name="title" type="text" />
+		</p>
+		<p>
+			<label for="subject">contents</label><br />
+			<textarea wicket:id="contents" id="message" rows="10" cols="20" name="comment"></textarea>
+		</p>
+
+		<p class="no-border">
+			<div wicket:id="modalWindow" />
+			<center><input class="button" wicket:id="preview" type="submit" value="preview" /><input class="button" wicket:id="submit" type="submit" value="submit" /></center>
+		</p>
+	</form>
+</wicket:extend>

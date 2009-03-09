@@ -9,6 +9,6 @@ public class ErrorPage extends AbstractFrame{
 
 	public ErrorPage(RuntimeException e){
 		logger.warn(e.getMessage(), e);
-		System.err.println(e.getCause().getCause().getMessage());
+//		System.err.println(e.getCause().getCause().getMessage());
 	}
 } 

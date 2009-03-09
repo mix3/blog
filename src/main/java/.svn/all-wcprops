@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mix3_repos/!svn/ver/16/trunk/blog7/src/main/java/org/mix3/blog/component
+END
+ImageRequestTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/mix3_repos/!svn/ver/16/trunk/blog7/src/main/java/org/mix3/blog/component/ImageRequestTarget.java
+END
+ThumbnailRequestTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/mix3_repos/!svn/ver/16/trunk/blog7/src/main/java/org/mix3/blog/component/ThumbnailRequestTarget.java
+END
+MyMultiLineLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mix3_repos/!svn/ver/19/trunk/blog7/src/main/java/org/mix3/blog/component/MyMultiLineLabel.java
+END
+LazyLoadingList.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mix3_repos/!svn/ver/16/trunk/blog7/src/main/java/org/mix3/blog/component/LazyLoadingList.java
+END
+MyBookmarkablePageLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/mix3_repos/!svn/ver/16/trunk/blog7/src/main/java/org/mix3/blog/component/MyBookmarkablePageLink.java
+END
+ImageUrlCodingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/mix3_repos/!svn/ver/16/trunk/blog7/src/main/java/org/mix3/blog/component/ImageUrlCodingStrategy.java
+END
+ThumbnailUrlCodingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/mix3_repos/!svn/ver/16/trunk/blog7/src/main/java/org/mix3/blog/component/ThumbnailUrlCodingStrategy.java
+END

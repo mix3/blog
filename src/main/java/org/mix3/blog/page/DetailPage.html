@@ -1,0 +1,72 @@
+<wicket:extend>
+	<div class="article">
+		<div wicket:id="articlePanel"></div>
+	</div>
+	
+	<h3 id="trackback">Trackbacks</h3>
+	<p>
+		<label for="name">TrackBack URL for this entry</label><br />
+		<input wicket:id="trackbackurl" id="name" type="text" readonly="readonly" onfocus="this.select()"/>
+	</p>
+	<ol class="commentlist">
+		<li wicket:id="trackbacklist">
+			<cite>
+				<a href="#" wicket:id="title"></a> - <span wicket:id="blogname">name</span> <span class="comment-data" wicket:id="date">date</span>
+			</cite>
+			<div class="comment-text" wicket:id="excerpt" />		
+		</li>
+	</ol>
+	
+	<h3 id="comment">Comments</h3>
+	
+	<ol class="commentlist">
+		<li wicket:id="commentlist">
+			<cite>
+				<span wicket:id="name">name</span><br />				
+				<span class="comment-data" wicket:id="date">date</span>
+			</cite>
+			<div class="comment-text" wicket:id="contents" />		
+		</li>
+	</ol>
+	
+	<form wicket:id="form" id="commentform">
+		<p>
+			<label for="name">Name</label><br />
+			<input wicket:id="name" id="name" name="name" type="text" />
+		</p>
+		<p>
+			<label for="name">comment</label><br />
+			<textarea wicket:id="comment" id="message" name="comment" rows="10" cols="20" ></textarea>
+		</p>
+		<p class="no-border">
+			<center><input wicket:id="submit" type="submit" value="submit" /></center>
+		</p>
+	</form>
+	
+	<div class="contents_detailall">
+		<!--
+		<div class="ctitle" id="trackback">トラックバック先</div>
+		<input wicket:id="trackbackurl" style="width:80%;" type="text" /><p>
+		<div class="ctitle" id="trackback">トラックバック一覧</div>
+		<div wicket:id="trackbacklist">
+			<a href="#" wicket:id="title"></a> <span wicket:id="blogname"></span> <span wicket:id="date"></span>
+			<div class="contents" wicket:id="excerpt"></div>
+		</div>
+		
+		<div class="ctitle" id="comment">コメント一覧</div>
+		<div wicket:id="commentlist">
+			Posted by <span wicket:id="name">name</span> <span wicket:id="date">date</span>
+			<div class="contents" wicket:id="contents">contents</div>
+		</div>
+		
+		<div class="ctitle">コメントする</div>
+		<form wicket:id="form">
+		<table>
+			<tr><td>名前：</td><td><input wicket:id="name" style="width:100%;" name="name" type="text" /></td></tr>
+			<tr><td></td><td><textarea wicket:id="comment" rows="6" cols="30" name="comment"></textarea></td></tr>
+			<tr><td></td><td><center><input wicket:id="submit" type="submit" value="投稿" /></center></td></tr>
+		</table>
+		</form>
+		-->
+	</div>
+</wicket:extend>

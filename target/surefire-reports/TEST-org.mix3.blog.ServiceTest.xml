@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.016" errors="0" skipped="0" tests="0" name="org.mix3.blog.ServiceTest">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Documents and Settings\mix3\.m2\repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="env.PROMPT" value="$P$G"/>
+    <property name="os.name" value="Windows XP"/>
+    <property name="env.FP_NO_HOST_CHECK" value="NO"/>
+    <property name="sun.boot.class.path" value="C:\Develop\Java\jdk1.6.0_11\jre\lib\resources.jar;C:\Develop\Java\jdk1.6.0_11\jre\lib\rt.jar;C:\Develop\Java\jdk1.6.0_11\jre\lib\sunrsasign.jar;C:\Develop\Java\jdk1.6.0_11\jre\lib\jsse.jar;C:\Develop\Java\jdk1.6.0_11\jre\lib\jce.jar;C:\Develop\Java\jdk1.6.0_11\jre\lib\charsets.jar;C:\Develop\Java\jdk1.6.0_11\jre\classes"/>
+    <property name="env.COMPUTERNAME" value="WIN"/>
+    <property name="env.ALLUSERSPROFILE" value="C:\Documents and Settings\All Users"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.runtime.version" value="1.6.0_11-b03"/>
+    <property name="env.HOMEPATH" value="\Documents and Settings\mix3"/>
+    <property name="user.name" value="mix3"/>
+    <property name="user.language" value="ja"/>
+    <property name="sun.boot.library.path" value="C:\Develop\Java\jdk1.6.0_11\jre\bin"/>
+    <property name="classworlds.conf" value="C:\Develop\apache-maven-2.0.9\bin\m2.conf"/>
+    <property name="java.version" value="1.6.0_11"/>
+    <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 15 Model 95 Stepping 2, AuthenticAMD"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="env.CLIENTNAME" value="Console"/>
+    <property name="env.TEMP" value="C:\DOCUME~1\mix3\LOCALS~1\Temp"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.endorsed.dirs" value="C:\Develop\Java\jdk1.6.0_11\jre\lib\endorsed"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="env.HOMEDRIVE" value="C:"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="user.country" value="JP"/>
+    <property name="java.home" value="C:\Develop\Java\jdk1.6.0_11\jre"/>
+    <property name="env.APPDATA" value="C:\Documents and Settings\mix3\Application Data"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="env.OS" value="Windows_NT"/>
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="os.version" value="5.1"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="11.0-b16"/>
+    <property name="user.variant" value=""/>
+    <property name="env.USERPROFILE" value="C:\Documents and Settings\mix3"/>
+    <property name="env.JAVA_HOME" value="C:\Develop\Java\jdk1.6.0_11"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="env.TMP" value="C:\DOCUME~1\mix3\LOCALS~1\Temp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="user.home" value="C:\Documents and Settings\mix3"/>
+    <property name="env.SESSIONNAME" value="Console"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="env.M2_HOME" value="C:\Develop\apache-maven-2.0.9"/>
+    <property name="env.NUMBER_OF_PROCESSORS" value="1"/>
+    <property name="java.library.path" value="C:\Develop\Java\jdk1.6.0_11\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Develop\apache-maven-2.0.9\bin;C:\Develop\Java\jdk1.6.0_11\bin;C:\Develop\InstantRails-2.0-win\mysql\bin;C:\Develop\Git\bin"/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="env.MAVEN_CMD_LINE_ARGS" value="clean package"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="C:\Develop\apache-maven-2.0.9"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.class.path" value="C:\Develop\apache-maven-2.0.9\boot\classworlds-1.1.jar"/>
+    <property name="env.MAVEN_JAVA_EXE" value="&quot;C:\Develop\Java\jdk1.6.0_11\bin\java.exe&quot;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env.LOGONSERVER" value="\\MOESAMBA"/>
+    <property name="env.windir" value="C:\WINDOWS"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="Service Pack 3"/>
+    <property name="env.HOME" value="C:\Documents and Settings\mix3"/>
+    <property name="env.ProgramFiles" value="C:\Program Files"/>
+    <property name="surefire.test.class.path" value="C:\workspace\blog\target\test-classes;C:\workspace\blog\target\classes;C:\Documents and Settings\mix3\.m2\repository\org\apache\wicket\wicket\1.3.5\wicket-1.3.5.jar;C:\Documents and Settings\mix3\.m2\repository\org\slf4j\slf4j-api\1.4.2\slf4j-api-1.4.2.jar;C:\Documents and Settings\mix3\.m2\repository\org\slf4j\slf4j-log4j12\1.4.2\slf4j-log4j12-1.4.2.jar;C:\Documents and Settings\mix3\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Documents and Settings\mix3\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Documents and Settings\mix3\.m2\repository\org\mortbay\jetty\jetty\6.1.4\jetty-6.1.4.jar;C:\Documents and Settings\mix3\.m2\repository\org\mortbay\jetty\jetty-util\6.1.4\jetty-util-6.1.4.jar;C:\Documents and Settings\mix3\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.4\servlet-api-2.5-6.1.4.jar;C:\Documents and Settings\mix3\.m2\repository\org\mortbay\jetty\jetty-management\6.1.4\jetty-management-6.1.4.jar;C:\Documents and Settings\mix3\.m2\repository\mx4j\mx4j\3.0.1\mx4j-3.0.1.jar;C:\Documents and Settings\mix3\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar;C:\Documents and Settings\mix3\.m2\repository\net\java\dev\activeobjects\activeobjects\0.8.2\activeobjects-0.8.2.jar;C:\Documents and Settings\mix3\.m2\repository\ant\ant\1.6.5\ant-1.6.5.jar;C:\Documents and Settings\mix3\.m2\repository\org\h2database\h2database\1.0.79\h2database-1.0.79.jar;C:\Documents and Settings\mix3\.m2\repository\org\apache\wicket\wicket-guice\1.3.5\wicket-guice-1.3.5.jar;C:\Documents and Settings\mix3\.m2\repository\org\apache\wicket\wicket-ioc\1.3.5\wicket-ioc-1.3.5.jar;C:\Documents and Settings\mix3\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Documents and Settings\mix3\.m2\repository\com\google\code\guice\guice\1.0\guice-1.0.jar;C:\Documents and Settings\mix3\.m2\repository\c3p0\c3p0\0.9.1.2\c3p0-0.9.1.2.jar;C:\Documents and Settings\mix3\.m2\repository\com\sun\media\jai_codec\1.1.4\jai_codec-1.1.4.jar;C:\Documents and Settings\mix3\.m2\repository\com\sun\media\jai_core\1.1.4\jai_core-1.1.4.jar;C:\Documents and Settings\mix3\.m2\repository\com\sun\media\mlibwrapper_jai\1.1.4\mlibwrapper_jai-1.1.4.jar;C:\Documents and Settings\mix3\.m2\repository\org\apache\wicket\wicket-extensions\1.3.5\wicket-extensions-1.3.5.jar;C:\Documents and Settings\mix3\.m2\repository\org\wicketstuff\wicketstuff-rome\1.3-SNAPSHOT\wicketstuff-rome-1.3-SNAPSHOT.jar;C:\Documents and Settings\mix3\.m2\repository\rome\rome\0.9\rome-0.9.jar;C:\Documents and Settings\mix3\.m2\repository\jdom\jdom\1.0\jdom-1.0.jar;"/>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\mix3\LOCALS~1\Temp\"/>
+    <property name="env.PROCESSOR_REVISION" value="5f02"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="env.SystemRoot" value="C:\WINDOWS"/>
+    <property name="env.GIT_SSH" value="C:\Develop\putty-0.60-JP_Y-2007-08-06\plink.exe"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.ext.dirs" value="C:\Develop\Java\jdk1.6.0_11\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\workspace\blog"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="env.CLASSWORLDS_JAR" value="&quot;C:\Develop\apache-maven-2.0.9\boot\classworlds-1.1.jar&quot;"/>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"/>
+    <property name="env.Path" value="C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Develop\apache-maven-2.0.9\bin;C:\Develop\Java\jdk1.6.0_11\bin;C:\Develop\InstantRails-2.0-win\mysql\bin;C:\Develop\Git\bin"/>
+    <property name="basedir" value="C:\workspace\blog"/>
+    <property name="env.ERROR_CODE" value="0"/>
+    <property name="env.USERNAME" value="mix3"/>
+    <property name="env.SystemDrive" value="C:"/>
+    <property name="file.encoding" value="MS932"/>
+    <property name="env.USERDOMAIN" value="MIX3NETWORK"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="env.PROCESSOR_LEVEL" value="15"/>
+  </properties>
+</testsuite>

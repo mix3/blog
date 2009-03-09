@@ -1,0 +1,50 @@
+<wicket:extend>
+	<form wicket:id="form">
+		<h3>Login Settings</h3>
+		<p>
+			<label for="subject">uid</label><br />
+			<input type="text" id="name" wicket:id="uid" />
+		</p>
+		<p>
+			<label for="subject">password</label><br />
+			<input type="password" id="name" wicket:id="pass" />
+		</p>
+		
+		<h3>Blog Settings</h3>
+		<p>
+			<label for="subject">blogname</label><br />
+			<input type="text" id="name" wicket:id="blogname" />
+		</p>
+		<p>
+			<label for="subject">blogurl</label><br />
+			<input type="text" id="name" wicket:id="blogurl" />
+		</p>
+		<p>
+			<label for="subject">description</label><br />
+			<input type="text" id="name" wicket:id="description" />
+		</p>
+		<p>
+			<label for="subject">about</label><br />
+			<textarea wicket:id="about" id="message" rows="10" cols="20" name="comment"></textarea>
+		</p>
+		<p class="no-border">
+			<input type="submit" wicket:id="submit" value="submit">
+		</p>
+	</form>
+	<!--
+	<div class="contents_body">
+		<form wicket:id="form">
+			<table style="width:100%;">
+				<tr><th colspan=2>ログイン設定</th></tr>
+				<tr><td width="30%">uid:</td><td width="70%"><input type="text" wicket:id="uid" /></td></tr>
+				<tr><td>pass:</td><td><input type="password" wicket:id="pass" /></td></tr>
+				<tr><td>description:</td><td width="70%"><input type="text" wicket:id="description" /></td></tr>
+				<tr><th colspan=2>ブログ設定</th></tr>
+				<tr><td>blogname:</td><td><input type="text" wicket:id="blogname" /></td></tr>
+				<tr><td>blogurl:</td><td><input type="text" wicket:id="blogurl" /></td></tr>
+				<tr><td colspan=2><input type="submit" wicket:id="submit" value="保存"></td></tr>
+			</table>
+		</form>
+	</div>
+	-->
+</wicket:extend>

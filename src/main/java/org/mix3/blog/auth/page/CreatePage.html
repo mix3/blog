@@ -1,0 +1,34 @@
+<wicket:extend>
+	<form wicket:id="form">
+		<p>
+			<label for="subject">title</label><br />
+			<input wicket:id="title" id="name" name="name" type="text" />
+		</p>
+		<p>
+			<label for="subject">contents</label><br />
+			<textarea wicket:id="contents" id="message" rows="10" cols="20" name="comment"></textarea>
+		</p>
+		<p>
+			<label for="subject">category</label><br />
+			<input wicket:id="strcategory" id="name" name="category" type="text" />
+		</p>
+		<p>
+			<label for="subject">trackback</label><br />
+			<textarea wicket:id="trackback" id="message" rows="5" cols="20" name="trackback"></textarea>
+		</p>
+		<p class="no-border">
+			<div wicket:id="modalWindow" />
+			<center><input class="button" wicket:id="preview" type="submit" value="preview" /><input class="button" wicket:id="submit" type="submit" value="submit" /></center>
+		</p>
+	<!--
+		<table>
+			<tr><td>タイトル：</td><td><input wicket:id="title" name="name" type="text" /></td></tr>
+			<tr><td colspan="2"><textarea wicket:id="contents" rows="15" cols="50" name="comment"></textarea></td></tr>
+			<tr><td>カテゴリ：</td><td><input wicket:id="category" name="category" type="text" /></td></tr>
+			<tr><td colspan="2">トラックバック：</td></tr>
+			<tr><td colspan="2"><textarea wicket:id="trackback" rows="3" cols="50" name="trackback"></textarea></td></tr>
+			<tr><td colspan="2"><center><input wicket:id="submit" type="submit" value="投稿" /></center></td></tr>
+		</table>
+	-->
+	</form>
+</wicket:extend>
