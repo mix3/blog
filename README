@@ -1,0 +1,15 @@
+『 ブログシステムですね、わかります』
+
+DESCRIPTION:
+　　特に名前を決めていなかったので、作成したシステム自体の名前は運用中のブログ名にあやかって、
+　　『ブログシステムですね、わかります』にします。
+
+　　『 ブログシステムですね、わかります』は、Wicket + ActiveObjects + Guice + H2Database
+　　を用いて作成したブログシステムです。
+　　シンタックスハイライトに SyntaxHighlighter 2.0 を使用し、ブログのデザインに
+　　[Styleshout.com]http://www.styleshout.com/ の VectorLover 1.0 を使用させてもらいました。
+
+　　H2DBはInMemoryで動作するよう設定していますので、Webコンテナにwarを配置するだけで動作します。
+
+LICENSE:
+　　Apache License 2.0 ということで。　多分問題ないですよね？
