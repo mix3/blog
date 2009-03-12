@@ -1,6 +1,9 @@
 package org.mix3.blog.entity;
 
+import java.sql.Types;
+
 import net.java.ao.Entity;
+import net.java.ao.schema.SQLType;
 
 public interface Setting extends Entity{
 	public String getUid();
@@ -15,6 +18,7 @@ public interface Setting extends Entity{
 	public String getDescription();
 	public void setDescription(String description);
 	
+	@SQLType(Types.CLOB)
 	public String getAbout();
 	public void setAbout(String about);
 	

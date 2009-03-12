@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.mix3.blog.TestHomePage
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.843 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.891 sec
